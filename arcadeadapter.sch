@@ -1,0 +1,205 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "27 may 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L CONN_7 P4
+U 1 1 537C932D
+P 4300 4050
+F 0 "P4" V 4270 4050 60  0000 C CNN
+F 1 "CONN_7" V 4370 4050 60  0000 C CNN
+F 2 "" H 4300 4050 60  0000 C CNN
+F 3 "" H 4300 4050 60  0000 C CNN
+	1    4300 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CONN_7 P2
+U 1 1 537C933C
+P 7750 4050
+F 0 "P2" V 7720 4050 60  0000 C CNN
+F 1 "CONN_7" V 7820 4050 60  0000 C CNN
+F 2 "" H 7750 4050 60  0000 C CNN
+F 3 "" H 7750 4050 60  0000 C CNN
+	1    7750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 537C939D
+P 5650 3550
+F 0 "R1" V 5730 3550 40  0000 C CNN
+F 1 "R" V 5657 3551 40  0000 C CNN
+F 2 "~" V 5580 3550 30  0000 C CNN
+F 3 "~" H 5650 3550 30  0000 C CNN
+	1    5650 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R2
+U 1 1 537C93AC
+P 6200 3550
+F 0 "R2" V 6280 3550 40  0000 C CNN
+F 1 "R" V 6207 3551 40  0000 C CNN
+F 2 "~" V 6130 3550 30  0000 C CNN
+F 3 "~" H 6200 3550 30  0000 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 P3
+U 1 1 537C98CE
+P 5900 5600
+F 0 "P3" V 5850 5600 50  0000 C CNN
+F 1 "CONN_4" V 5950 5600 50  0000 C CNN
+F 2 "" H 5900 5600 60  0000 C CNN
+F 3 "" H 5900 5600 60  0000 C CNN
+	1    5900 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_20 P1
+U 1 1 537C9AD1
+P 6000 1300
+F 0 "P1" V 5950 1300 60  0000 C CNN
+F 1 "CONN_20" V 6050 1300 60  0000 C CNN
+F 2 "" H 6000 1300 60  0000 C CNN
+F 3 "" H 6000 1300 60  0000 C CNN
+	1    6000 1300
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6950 1650 6950 3750
+Wire Wire Line
+	6950 3750 7400 3750
+Wire Wire Line
+	6850 1650 6850 3850
+Wire Wire Line
+	6850 3850 7400 3850
+Wire Wire Line
+	6750 1650 6750 3950
+Wire Wire Line
+	6750 3950 7400 3950
+Wire Wire Line
+	6650 1650 6650 4050
+Wire Wire Line
+	6650 4050 7400 4050
+Wire Wire Line
+	6550 1650 6550 4150
+Wire Wire Line
+	6550 4150 7400 4150
+Wire Wire Line
+	6450 1650 6450 4250
+Wire Wire Line
+	6450 4250 7400 4250
+Wire Wire Line
+	6350 1650 6350 4350
+Wire Wire Line
+	6350 3300 6200 3300
+Wire Wire Line
+	6350 4350 7400 4350
+Connection ~ 6350 3300
+Wire Wire Line
+	6250 1650 6250 3200
+Wire Wire Line
+	6250 3200 6100 3200
+Wire Wire Line
+	6100 3200 6100 3800
+Wire Wire Line
+	6100 3800 6200 3800
+Wire Wire Line
+	6150 1650 6150 3100
+Wire Wire Line
+	6150 3100 6050 3100
+Wire Wire Line
+	6050 3100 6050 5250
+Wire Wire Line
+	5950 1650 5950 5250
+Wire Wire Line
+	5850 1650 5850 5250
+Wire Wire Line
+	5750 1650 5750 5250
+Wire Wire Line
+	5500 3100 5750 3100
+Wire Wire Line
+	5650 3100 5650 3300
+Connection ~ 5750 3100
+Wire Wire Line
+	5500 3100 5500 4350
+Wire Wire Line
+	5500 4350 4650 4350
+Connection ~ 5650 3100
+Wire Wire Line
+	5650 1650 5650 3000
+Wire Wire Line
+	5650 3000 5450 3000
+Wire Wire Line
+	5450 3000 5450 3800
+Wire Wire Line
+	5450 3800 5650 3800
+Wire Wire Line
+	5050 1650 5050 3750
+Wire Wire Line
+	5050 3750 4650 3750
+Wire Wire Line
+	5150 1650 5150 3850
+Wire Wire Line
+	5150 3850 4650 3850
+Wire Wire Line
+	5250 1650 5250 3950
+Wire Wire Line
+	5250 3950 4650 3950
+Wire Wire Line
+	5350 1650 5350 4050
+Wire Wire Line
+	5350 4050 4650 4050
+Wire Wire Line
+	5450 1650 5450 4150
+Wire Wire Line
+	5450 4150 4650 4150
+Wire Wire Line
+	5550 1650 5550 4250
+Wire Wire Line
+	5550 4250 4650 4250
+$EndSCHEMATC
